@@ -19,7 +19,8 @@ source $HOME/.config/nvim/nvim-config/leader.vim
 source $HOME/.config/nvim/nvim-config/theme.vim
 
 " Miscellaneous
-let g:python3_host_prog='/opt/homebrew/bin/python3'
+" let g:python3_host_prog='/opt/homebrew/bin/python3'
+let g:python3_host_prog='/usr/local/bin/python3'
 
 command! LF FloatermNew lf
 let g:airline#extensions#tabline#enabled=1
