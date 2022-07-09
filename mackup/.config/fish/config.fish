@@ -10,20 +10,21 @@ set -U FZF_CTRL_R_OPTS "--reverse --preview 'echo {}' --preview-window down:3:hi
 set -U FZF_DEFAULT_COMMAND "fd -H -E '.git'"
 set -U FZF_DEFAULT_OPTS "--color=spinner:#F8BD96,hl:#F28FAD --color=fg:#D9E0EE,header:#F28FAD,info:#DDB6F2,pointer:#F8BD96 --color=marker:#F8BD96,fg+:#F2CDCD,prompt:#DDB6F2,hl+:#F28FAD"
 set -U FZF_TMUX_OPTS "-p"
-set -U GOPATH (go env GOPATH)
-set -U KIT_EDITOR /opt/homebrew/bin/nvim
+# set -U GOPATH (go env GOPATH)
+# set -U KIT_EDITOR /opt/homebrew/bin/nvim
 set -U LANG en_US.UTF-8
 set -U LC_ALL en_US.UTF-8
 set -U NODE_PATH "~/.nvm/versions/node/v16.15.0/bin/node"
 set -U PAGER ~/.local/bin/nvimpager
-set -U PNPM_HOME "/Users/joshmedeski/Library/pnpm"
+# set -U PNPM_HOME "/Users/joshmedeski/Library/pnpm"
 
-fish_add_path /opt/homebrew/bin
-fish_add_path /Users/joshmedeski/.nvm/versions/node/v16.15.0/bin
-fish_add_path $PNPM_HOME
-fish_add_path $GOPATH/bin
+# fish_add_path /opt/homebrew/bin
+# fish_add_path /Users/joshmedeski/.nvm/versions/node/v16.15.0/bin
+# fish_add_path $PNPM_HOME
+# fish_add_path $GOPATH/bin
 fish_add_path $HOME/.config/bin
-fish_add_path ./node_modules/.bin
+# fish_add_path ./node_modules/.bin
+fish_add_path /usr/local/bin
 
 # pnpm autocomplete
 [ -f ~/.config/tabtab/fish/__tabtab.fish ]; and . ~/.config/tabtab/fish/__tabtab.fish; or true
