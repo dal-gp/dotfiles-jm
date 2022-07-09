@@ -8,7 +8,7 @@ import:
   - ~/.config/alacritty/aw/current.yml
 
 shell:
-  program: /opt/homebrew/bin/fish
+  program: /usr/local/bin/fish
 
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
