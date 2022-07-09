@@ -14,12 +14,12 @@ set -U FZF_TMUX_OPTS "-p"
 # set -U KIT_EDITOR /opt/homebrew/bin/nvim
 set -U LANG en_US.UTF-8
 set -U LC_ALL en_US.UTF-8
-set -U NODE_PATH "~/.nvm/versions/node/v16.15.0/bin/node"
+set -U NODE_PATH "~/.nvm/versions/node/v16.16.0/bin/node"
 set -U PAGER ~/.local/bin/nvimpager
 # set -U PNPM_HOME "/Users/joshmedeski/Library/pnpm"
 
 # fish_add_path /opt/homebrew/bin
-# fish_add_path /Users/joshmedeski/.nvm/versions/node/v16.15.0/bin
+fish_add_path /Users/dal/.nvm/versions/node/v16.16.0/bin
 # fish_add_path $PNPM_HOME
 # fish_add_path $GOPATH/bin
 fish_add_path $HOME/.config/bin
