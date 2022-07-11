@@ -274,3 +274,6 @@ vim.cmd[[command! -nargs=0 GitStatus :Telescope git_status ]]
 vim.cmd[[autocmd BufWritePost *tmux.conf !tmux source <afile>]]
 vim.cmd[[autocmd BufWritePost *yabairc !brew services restart yabai]]
 vim.cmd[[autocmd BufWritePost *skhdrc !brew services restart skhd]]
+
+require("nvim-autopairs").setup {}
+
